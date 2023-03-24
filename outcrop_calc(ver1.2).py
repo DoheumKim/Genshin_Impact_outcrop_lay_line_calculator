@@ -150,7 +150,7 @@ def explanation():
     sum_exp,i,sum_mora = -1*start_exp,1,0
     c,c_cost = '',0
 
-    for i in range(lev_range[0],lev_range[1]+1):  
+    for i in range(lev_range[0],lev_range[1]):  
         sum_exp += lev_lst['actual_demand'][i]            #= SUM(B5:T5)
         #sum_exp -= lev_lst['exceed_exp'][i]     #= -SUM(B6:T6)
         #sum_mora += lev_lst['used_mora'][i]
